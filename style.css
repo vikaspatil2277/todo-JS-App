@@ -60,7 +60,7 @@
     cursor:pointer;
   }
   
-  .model-window {
+  .modal-window {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.25);
     top: 0;
@@ -245,7 +245,7 @@
     margin:8rem 0 0 33rem;
   }
   
-  #back-box{
+  #open-modal3{
     display:flex;
     justify-content:space-around;
     align-items:center;

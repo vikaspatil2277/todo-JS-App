@@ -1,15 +1,15 @@
-var backBox= document.getElementById('back-box');
+var module_13= document.getElementById('open-modal3');
 var back_btn= document.querySelector('.back_btn');
 var new_page_title= document.querySelector('.new_page_title');
 var new_page_plusBtn= document.querySelector('.new_page_plusBtn');
 
-backBox.style.display='none';
+module_13.style.display='none';
 
 new_page_plusBtn.addEventListener('click',add_ele);
 
 
 back_btn.addEventListener('click',(argu)=>{
-  backBox.style.display="none";
+  module_13.style.display="none";
   document.querySelector('.continer').classList.remove('hidden');
   var temp=document.getElementsByClassName('index_box');
   for(let i of temp){
@@ -117,7 +117,7 @@ function new_page_fun(para){
     }
     else{
       i.classList.add('hidden_page_element');
-      backBox.style.display='flex';
+      module_13.style.display='flex';
       new_page_title.textContent= `${i.childNodes[0].textContent}`;
       console.log();
     }
